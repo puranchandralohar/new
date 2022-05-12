@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_f.css">
+    <title>Sign Up Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <form action="#" method="post">
+                <div class="form-heading">
+                    <h2>Sign Up</h2>
+                </div>
+                <div class="form-elements">
+                    <label for="name">Name *</label>
+                    <input type="text" placeholder="First Name" required>
+                    <input type="text" placeholder="Last Name" required>
+                </div>
+                <div class="form-elements">
+                    <label for="email">Email *</label>
+                    <input type="email" name="email" placeholder="example@gmail.com" required>
+                </div>
+                <div class="form-elements">
+                    <label for="password">Password *</label>
+                    <input type="password" name="password" required>
+                </div>
+                <div class="form-elements">
+                    <label for="password">Confirm Password *</label>
+                    <input type="password" name="password" required>
+                </div>
+                <div class="form-elements">
+                    <label for="dateofbirth">Date of Birth *</label>
+                    <input type="date" name="dateofbirth" required>
+                </div>
+                <div class="form-elements">
+                    <label for="gender">Gender *</label>
+                    <input type="radio" name="gender" value="male" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" value="female" id="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" value="Other" id="other">
+                    <label for="other">Other</label>
+                </div>
+
+                <div class="form-elements">
+                    <label for="languages">Languages Known</label>
+                    <input type="checkbox" name="languages" id="react" checked>
+                    <label for="react">React</label>
+
+                    <input type="checkbox" name="languages" id="angular">
+                    <label for="angular">Angular</label>
+
+                    <input type="checkbox" name="languages" id="vue">
+                    <label for="vue">Vue</label>
+                </div>
+
+                <div class="form-elements">
+                    <label for="experience">Experience Level*</label>
+                    <select name="experience" id="experience">
+                        <option value="Beginer">Beginer</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                        <option value="expert">Expert</option>
+                    </select>
+                </div>
+
+                <div class="form-elements">
+                    <label for="about">Tell us something about you*</label>
+                    <textarea name="about" id="about" cols="30" rows="5"></textarea>
+                </div>
+                
+                <div class="form-elements">
+                    <input type="checkbox" name="terms" id="terms">
+                    <span>I accept the <a href="#">T&C</a></span>
+                </div>
+                <input type="submit" value="Submit" class="btn">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

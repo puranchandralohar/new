@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 10px 20px;
+    padding: 20px;
+}
+
+.form {
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+    width: 35%;
+    margin: auto;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 5px -5px 10px #c5c5c5;
+}
+.form-heading{
+    text-align: center;
+    padding:15px 0;
+}
+.form-elements{
+    padding:10px 30px;
+}
+
+.form-elements label{
+    margin-right: 15px;
+    font-weight: bold;
+    color:#0c0c0c;
+}
+
+label:first-child{
+    display: block;
+    padding:10px 0;
+}
+.form-elements input{
+    padding:5px;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid #c5c5c5;
+    
+}
+input[type="text"]{
+    width:50%;
+    margin-right: -2px;    
+}
+
+input[type="email"],[type="password"]{
+    width:100%;
+}
+
+.form-elements select{
+    padding:5px 10px;
+}
+/* Submit Button Style */
+.btn{
+    display: block;
+    margin:auto;
+    padding: 10px 15px;
+    width:100%;
+    border-radius: 5px;
+    border:none;
+    outline:none;
+    background-color: #0c0c9d;
+    color:#fff;
+    cursor: pointer;    
+}
+

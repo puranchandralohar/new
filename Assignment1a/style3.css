@@ -1,0 +1,14 @@
+/* External CSS */
+.links a{
+    color:tomato;
+}
+
+footer{
+    background-color: darkblue;
+}
+footer h3{
+    color:#fff;
+}
+.foot-links{
+    text-align: center;
+}

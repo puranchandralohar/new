@@ -1,0 +1,47 @@
+body{
+    background-color: #383737;
+    margin:0;
+    padding:10px 20px;
+}
+
+.infobox{
+    background-color: #eedad8;
+    height:100vh;
+    padding:10px 30px;
+}
+
+.infobox p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.infobox pre{
+    font-style: italic;
+    font-size: 20px;
+    color:#C51B06;
+}
+
+header{
+    text-align: center;
+    
+}
+
+h1{
+    color:blue;
+}
+h2{
+    color:tomato;
+}
+
+
+img{
+    float: right;
+    margin:10px 20px;
+    height:340px;
+    width:250px;
+}
+
+.links a{
+    padding:5px;
+    color: #fff;
+}
